@@ -3,8 +3,8 @@ import { ProjectsSectionCard } from "./ProjectsSectionCard"
 
 export const ProjectsPage = () => {
     return (
-        <section>
-            <h2>Projetos</h2>
+        <section className="projects__container">
+            <h2 className="title2">Projetos</h2>
             <ul>
                 {
                     projects.map((projetos) => {

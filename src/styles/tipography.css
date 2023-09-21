@@ -1,0 +1,47 @@
+.title1 {
+    color: var(--color-white);
+    font-family: var(--font-primary);
+    font-size: 3rem; 
+    font-weight: 800; 
+    line-height: normal; 
+}
+
+.title2 {
+    color: var(--color-white);
+    font-family: var(--font-primary);
+    font-size: 2.5rem; 
+    font-weight: 800; 
+    line-height: normal;
+}
+
+.title3 {
+    color: var(--color-white);
+    font-family: var(--font-primary);
+    font-size: 1.375rem; 
+    font-weight: 800; 
+    line-height: normal;
+}
+
+.paragraph {
+    color: var(--color-white, #FFF);
+    font-family: var(--font-primary);
+    font-size: 1rem; 
+    font-weight: 800; 
+    line-height: normal;
+}
+
+.header__footer-botons {
+    color: var(--color-white);
+    font-family: var(--font-primary);
+    font-size: 0.875rem; 
+    font-weight: 800; 
+    line-height: normal;
+}
+
+.spanName {
+    color: var(--color-primary);
+    font-family: var(--font-primary);
+    font-size: 1rem; 
+    font-weight: 800; 
+    line-height: normal;  
+}

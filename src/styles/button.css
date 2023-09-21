@@ -1,0 +1,37 @@
+.btn__contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-primary);
+    
+    width: 114px;
+    height: 39px;
+    border-radius: 14px;
+
+    color: var(--color-white);
+    background-color: var(--color-primary);
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-primary);
+    
+    width: 130px;
+    height: 39px;
+    border-radius: 14px;
+
+    color: var(--color-white);
+    background-color: var(--color-primary);
+}
+
+.btn:hover {
+    color: var(--color-white);
+    background-color: var(--color-primary-hover);
+}
+
+.btn__contact:hover {
+    color: var(--color-white);
+    background-color: var(--color-primary-hover);
+}

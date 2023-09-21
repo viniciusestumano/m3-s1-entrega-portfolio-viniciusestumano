@@ -7,3 +7,12 @@
 
     --font-primary: 'Inter', sans-serif;
 }
+
+body {
+    background-color: var(--color-black, linear-gradient(180deg, #0C0C0C 0%, rgba(12, 12, 12, 0.94) 100%));;
+} 
+
+@media (max-width: 930px) {
+
+
+}

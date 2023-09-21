@@ -3,14 +3,14 @@ import { TechSectionCard } from "./TechSectionCard";
 
 export const Tecnologies = () => {
     return (
-        <section>
-            <h2>Tecnologias</h2>
+        <section className="techSection__container">
+            <h2 className="title2">Tecnologias</h2>
             <ul>
                 {
                     technologies.map((technologies) => {
                         return (
                             <li>
-                                <TechSectionCard image={technologies.img} title={technologies.name} />
+                                <TechSectionCard  image={technologies.img} title={technologies.name} />
                             </li>
                         )
                     })

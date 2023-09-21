@@ -1,14 +1,14 @@
 
 export const Header = () => {
     return (
-        <header>
+        <header className="header__container">
             <img src="./src/assets/portfolio.png" alt="logo portfolio" />
-            <div>
-            <span>Sobre </span>
-            <span>Stack </span>
-            <span>Projetos </span>
+            <div className="contacts__container">
+            <p className="paragraph">Sobre </p>
+            <p className="paragraph">Stack </p>
+            <p className="paragraph">Projetos </p>
             </div>
-            <button>Contato</button>
+            <button className="btn__contact">Contato</button>
         </header>
     )
 }

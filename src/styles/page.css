@@ -1,0 +1,141 @@
+@media (max-width: 930px) {
+    .header__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        width: 256px;
+        height: 124px; 
+        margin: 22px 67px 0px 67px;
+        gap: 27.13px;
+    }
+
+    .contacts__container{
+        display: flex;
+        align-items: center;
+        gap: 60px;
+        width: 256px;
+    }
+
+    .banner__container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner__container-info {
+        display: flex;
+        flex-direction: column;
+
+        height: 277px;
+        gap: 20px; 
+        margin: 40px 83px 20px 27px;
+
+    }
+
+    .banner__container-img {
+        width: 309.692px;
+        height: 187.924px;
+        margin: 40px 40.74px 40px 39.56px;     
+    }
+
+    .aboutMe__container {
+        display: flex;
+        flex-direction: column;
+
+        gap: 20px;
+        width: 333px;
+        height: 339px; 
+        margin: 0px 28px 0px 29px;
+    }
+
+    .techSection__container {
+        display: flex;
+        flex-direction: column;
+
+        width: 332px;
+        height: 474px;
+
+        gap: 25px;
+        margin: 0px 29px 15px 29px; 
+    }
+
+    .techCard__container {
+        display: flex;
+        align-items: center;
+        justify-content:left;
+
+        width: 100%;
+        height: 86px;
+        gap: 30px;
+        padding-left: 35px;
+        margin-bottom: 25px ;
+
+        border-radius: 25px;
+        border: 1px solid rgba(255, 255, 255, 0.50);
+
+    }
+
+    .projects__container {
+        display: flex;
+        flex-direction: column;
+
+        gap: 20px;
+        width: 332px; 
+        height: 884px;
+        margin: 40px 29px;
+    }
+
+    .infoProject{
+        display: flex;
+        justify-content:space-between;
+        
+    }
+
+    .cardProject{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        padding: 20px;
+        height: 183px;
+        gap: 30px; 
+        margin-bottom: 30px;
+        border-radius: 25px;
+        border: 1px solid rgba(255, 255, 255, 0.50);
+    }
+
+    .footer__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        width: 332px;
+        height: 283px; 
+        margin: 30px 50px;
+        gap: 50px;
+
+        border-top: 1px solid #FFF;
+        border-bottom: 1px solid #FFF; 
+    }
+
+    .img__footer {
+        display: flex;
+        gap: 25px;
+    }
+
+    .footer__container > p {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        line-height: 30px;
+        width: 240px;
+        
+    }
+
+}
+
+
+
+

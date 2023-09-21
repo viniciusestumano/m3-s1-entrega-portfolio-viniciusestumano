@@ -2,9 +2,9 @@
 export const TechSectionCard = ({image, title}) => {
     return (
         <>
-        <div>
+        <div className="techCard__container">
         <img src={image} alt={`imagem ícone ${title}`} />
-        <p>{title}</p>
+        <p className="paragraph">{title}</p>
         </div>
         </>
     )
