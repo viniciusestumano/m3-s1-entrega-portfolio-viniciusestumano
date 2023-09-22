@@ -1,10 +1,11 @@
 import { user } from "../../data/user"
+import styles from "./style.module.css"
 
 export const Footer = () => {
     return (
-        <section className="footer__container">
+        <section className={`footer__container ${styles.footer__container}`}>
+            <div className={`img__footer ${styles.img__footer}`}>
                 <h2 className="title2">Contato</h2>
-            <div className="img__footer">
                 <img src="./src/assets/whatsapp-icon.png" alt="" />
                 <img src="./src/assets/linkedin-icon.png" alt="" />
                 <img src="./src/assets/github-icon.png" alt="" />

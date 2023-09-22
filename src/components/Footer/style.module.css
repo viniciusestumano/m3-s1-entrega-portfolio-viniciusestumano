@@ -1,0 +1,29 @@
+.footer__container {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin: 80px 150px;
+
+    height: 190px;
+
+    border-top: 1px solid #FFF;
+    border-bottom: 1px solid #FFF;
+}
+
+.img__footer {
+    width: 161px;
+    height: 89px; 
+}
+
+.img__footer img {
+    margin: 0px 12px 0px 0px;
+}
+
+.footer__container p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    line-height: 30px;
+    width: 350px
+}

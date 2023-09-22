@@ -1,0 +1,39 @@
+.projects__container {
+    display: flex;
+    flex-direction: column;
+
+    gap: 29px;
+    width: 896px;
+    height: 480px; 
+
+    margin: 0px 150px 40px 150px;
+}
+
+.infoProject {
+    display: flex;
+    justify-content:space-between;
+}
+
+.cardProject {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 20px;
+    width: 440px;
+    height: 183px;
+    gap: 30px; 
+    margin-bottom: 30px;
+    border-radius: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.50);
+}
+
+.projects__container ul {
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 100%;
+    gap: 16px;
+    row-gap: 0px;
+
+}
