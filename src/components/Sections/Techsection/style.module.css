@@ -1,0 +1,33 @@
+.techSection__container {
+    display: flex;
+    flex-direction: column;
+
+    width: 896px;
+    height: 280px;
+    gap: 28px; 
+    margin: 0px 150px 80px 150px;
+
+}
+
+.techCard__container {
+    display: flex;
+    align-items: center;
+
+    width: 287px;
+    height: 86px;
+    gap: 30px;
+    padding-left: 35px;
+    margin-bottom: 25px ;
+    
+    border-radius: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.50);
+}
+
+.techSection__container  ul {
+    display: flex;
+    flex-wrap: wrap;
+
+    height: 100%;
+    gap: 17px;
+    row-gap: 1px;
+}

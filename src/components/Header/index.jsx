@@ -1,9 +1,10 @@
+import styles from "./style.module.css";
 
 export const Header = () => {
     return (
-        <header className="header__container">
+        <header className={`header__container ${styles.header__container}`}>
             <img src="./src/assets/portfolio.png" alt="logo portfolio" />
-            <div className="contacts__container">
+            <div className={`contacts__container ${styles.contacts__container}`}>
             <p className="paragraph">Sobre </p>
             <p className="paragraph">Stack </p>
             <p className="paragraph">Projetos </p>

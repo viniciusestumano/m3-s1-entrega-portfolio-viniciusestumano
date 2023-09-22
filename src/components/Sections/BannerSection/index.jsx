@@ -1,7 +1,8 @@
 import { user, username } from "../../../data/user"
+import styles from './style.module.css';
 export const BannerSection = () => {
     return (
-        <section className="banner__container">
+        <section className={`banner__container ${styles.banner__container}`}>
             <div className="banner__container-info">
                 <span className="spanName">{username}</span>
                 <h1 className="title1">
@@ -12,7 +13,9 @@ export const BannerSection = () => {
                 </p>
                 <button className="btn">Saiba mais</button>
             </div>
-            <div><img src="./src/assets/banner-img.png" alt="banner imagem" className="banner__container-img" /></div>
+            <div>
+                <img src="./src/assets/banner-img.png" alt="banner imagem" className="banner__container-img" />
+            </div>
         </section>
     )
 }

@@ -1,0 +1,12 @@
+.banner__container {
+    display: flex;
+    justify-content: space-around;
+
+    height: 277.099px;
+    margin: 154px 0px 0px 0px;
+}
+
+.banner__container img {
+    width: 437.792px;
+    height: 265.656px; 
+}

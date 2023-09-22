@@ -136,6 +136,15 @@
 
 }
 
+.banner__container-info {
+    display: flex;
+    flex-direction: column;
+    
+    width: 320px; 
+    gap: 25px;
+}
+
+
 
 
 
